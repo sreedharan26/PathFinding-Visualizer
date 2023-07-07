@@ -1,3 +1,6 @@
+# You can view the preview of the app here:
+(https://ornate-tanuki-580749.netlify.app)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
