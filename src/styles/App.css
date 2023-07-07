@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+
+body,html{
+  /* background-color: black;
+  color: wheat; */
+}
+
+.description{
+  margin: 0px;
+  transition: all .2s linear;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+.description > p{
+  margin: 0px;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 20px;
+  border: none;
+  line-height: 30px;
+}
+
+
+.grid-sidebar-container{
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.grid-buttons-container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  flex: 1;
+  margin: 0px;
+}
+
+.grid{
+  height: 100%;
+  /* margin-top: -100px; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px 3px;
+  padding: 0;
+}
+
+
+.heading-container{
+  position: relative;
+  z-index: 5;
+  display: flex;
+  width: 100vw;
+  flex: 1;
+  box-shadow: 0px 1px 5px black;
+}
+
+.resulttext{
+  margin: 0px;
+  padding: 10px;
+  line-height: 40px;
+  font-weight: 400;
+  font-size: 20px;
+  transition: all .3s linear;
+  font-family: 'Francois One', sans-serif;
+}
+
+.result{
+  font-size: larger;
+  font-weight: 900;
+  color: orange;
+  text-decoration: underline;
+}
+
+.dark-theme{
+  background-color: black;
+  color: burlywood;
+  box-shadow: 0px 1px 5px wheat;
+}
+
+.error{
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+  margin-top: 0px;
+  padding-bottom: 10px;
+}
+
+

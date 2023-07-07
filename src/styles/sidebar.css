@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Diphylleia&display=swap');
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100px;
+    height: 100vh;
+    /* background-color: lightcoral; */
+    z-index: 1;
+    box-shadow: 2px 0px 5px -2px black;
+    transition: all .2s linear;
+   
+}
+
+.sidebar p{
+    font-family: 'Diphylleia', serif;
+}
+
+.sidebar > div{
+    margin-top: 20px;
+}
+
+.unvisited-node,.visited-node,.path-node,.wall-node,.neighbouring-node{
+    display:inline-block;
+    width: 1.5rem;
+    height: 1.7rem;
+    border-radius: 2px;
+    border: 1px solid black;
+}
+
+.unvisited-node{
+    background-color: white;
+}
+.visited-node{
+    background-color: lightgreen;
+}
+.path-node{
+background-color: lightyellow;
+}
+.wall-node{
+background-color: gray;
+}
+.neighbouring-node{
+    background-color: lightpink;
+}
+
+.x{
+
+}
+
+.dark-theme-on{
+    background-color: black;
+    color: beige;
+    box-shadow: 2px 0px 5px -2px wheat;
+}
+
+.dark-theme-on .visited-node{
+    border: 1px solid white;
+}
+.dark-theme-on .path-node{
+    border: 1px solid white;
+}
+.dark-theme-on .wall-node{
+    border: 1px solid white;
+}

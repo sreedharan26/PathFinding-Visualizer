@@ -1,0 +1,22 @@
+.grid{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px 3px;
+    padding: 0px;
+    transition: all .2s linear;
+}
+
+.row{
+    display: grid;
+    grid-template: auto/repeat(50,1fr);
+    grid-gap: 2px 3px;
+}
+
+.dark-theme-on{
+    background-color: black;
+    color: beige;
+}
